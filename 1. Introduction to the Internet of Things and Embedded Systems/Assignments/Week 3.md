@@ -14,7 +14,26 @@ https://www.renesas.com/eu/en/products/microcontrollers-microprocessors/rx/rx700
 ### Research the Arduino and Raspberry Pi platforms. 
 1. 
 - Arduino: None
-- Raspberry Pi: Raspbian
+- Raspberry Pi: Raspbian ki
 2.
 - Arduino: None
 - Raspberry Pi: Yes
+
+
+8051 Microcontroller :
+(https://www.alldatasheet.com/view.jsp?Searchword=Datasheet 8051&gclid=Cj0KCQjw-_j1BRDkARIsAJcfmTFh...)
+clock frequency--24 mhz
+Bitwidth of the datapath-- 8 bit
+Size of Flash memory--128 byte
+Number of pins-- 40
+It does not have an Analog to Digital coverter 
+  Atmega328 microcontroller:
+(https://pdf1.alldatasheet.com/datasheet-pdf/view/392243/ATMEL/ATMEGA328.html)   
+clock frequency--20 mhz
+Bitwidth of the data path-- 8 bit
+size of Flash memory--32k byte
+ number of pins--32
+It has ADC with 8 bits of precision.
+
+Arduino has no operating system. It can only run programs that were compiled for the Arduino platform, which mostly means programs written in C++. Raspberry Pi runs an operating system, which is usually Linux. It's a mini computer, while Arduino is much more simple. 
+operating system of Raspberry pi is Rsapbian .it operates in the open source and runs a suite of open source software .
